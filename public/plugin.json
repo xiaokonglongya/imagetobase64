@@ -1,0 +1,15 @@
+{
+  "main": "index.html",
+  "logo": "logo.png",
+  "preload": "preload.js",
+  "development": {
+    "main": "http://localhost:5173"
+  },
+  "features": [
+    {
+      "code": "tobase64",
+      "explain": "图片转为Base64,完全本地转化,速度快的飞起～",
+      "cmds": ["tobase64", "image", "图片转base64", "tobase64 image"]
+    }
+  ]
+}
